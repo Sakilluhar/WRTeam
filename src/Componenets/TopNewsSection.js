@@ -18,7 +18,10 @@ function TopNewsSection() {
 
   return (
     <div>
-      <hr/>
+      <div id='tns-hr-main' className=''>
+        <h4 >Top News</h4>       
+        <b><hr id='tns-hr'/></b>
+      </div>
     <div id='tns-main' className='d-flex justify-content-evenly'>
       <div id='tns-left-cards'>
       <div id='top-news-card' className="card" onClick={tnshandleReadMore}>

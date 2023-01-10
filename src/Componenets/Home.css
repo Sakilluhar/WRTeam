@@ -49,6 +49,22 @@
 
 /* -------------------------------------top-news-section------------------------------------- */
 
+
+
+#tns-hr{
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #EE2934;
+  opacity: 1;
+  border: 2px solid #ee2934;
+}
+
+#tns-hr-dot{
+  /* color: #EE2934;
+  border-radius: 100%;
+  font-size: 100px; */
+}
+
 #top-news-section{
   font-family: 'Zilla Slab', serif;
   height: 50rem;
