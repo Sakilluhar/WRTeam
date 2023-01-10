@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+/* ----------------------------------- first section-----------------------------------  */
+
+#first-section{
+  font-family: 'Zilla Slab', serif;
+    background-color: #EDF2F8;
+    height: 45rem;
+}
+
+#Left-first-section{
+  width: 40rem;
+  /* height: 45rem;   */
+}
+
+#right-first-section{
+ width: 35rem;
+ display: flex;
+ flex-direction: row;
+  /* height: 45rem; */
+}
+
+
+#fs-Newscard-image{
+  height: 35rem;
+  width: 35rem;
+}
+
+#fs-Radios{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-left: 4rem;
+}
+ 
+#fs-Radiobtn{
+  width: 23px;
+  height: 23px;
+  accent-color: #EE2934;
+} 
+
+/* buttons */
+#btnCatagory{
+    color: #ffffff; 
+    background:#EE2934;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+/* -------------------------------------top-news-section------------------------------------- */
+
+#top-news-section{
+  font-family: 'Zilla Slab', serif;
+  height: 50rem;
+}
+
+#tns-main{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+}
+
+#tns-left-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#top-news-card1{
+  width: 40rem;
+  height: 42rem;
+}
+
+#tns-news-image1{
+  height: 42rem;
+    width: 40rem;
+}
+
+#top-news-card{
+  height: 20rem;
+  width: 20rem;
+}
+
+#tns-news-image{
+  height: 20rem;
+  width: 20rem;
+}
+
+#tns-Title{
+  color: #ffffff;
+}
+
+#tns-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#btnTnsCatagory{
+  color: #ffffff; 
+  background:#EE2934;
+  width: fit-content;
+  margin-bottom: 5px;
+}
