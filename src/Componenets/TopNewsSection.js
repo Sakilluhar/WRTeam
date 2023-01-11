@@ -18,11 +18,11 @@ function TopNewsSection() {
 
   return (
     <div>
-      <div id='tns-hr-main' className=''>
-        <h4 >Top News</h4>       
-        <b><hr id='tns-hr'/></b>
+      <div id='tns-head-main' className='d-flex justify-content-between'>
+        <h4 id='tns-logo' >Top News</h4>  
+        <a href='/' id='tns-Viewmore'>View More</a>     
       </div>
-    <div id='tns-main' className='d-flex justify-content-evenly'>
+    <div id='tns-main' className=''>
       <div id='tns-left-cards'>
       <div id='top-news-card' className="card" onClick={tnshandleReadMore}>
             <img id='tns-news-image' src={tech1_jpg} className="card-img" alt="..."/>
