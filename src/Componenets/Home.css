@@ -88,7 +88,7 @@
 
 #top-news-section{
   font-family: 'Zilla Slab', serif;
-  height: 50rem;
+  height: 52rem;
 }
 
 #tns-main{
@@ -145,3 +145,181 @@
 
 /* ------------------------------Breaking News section -------------------------------------*/
 
+#bns-main{
+  font-family: 'Zilla Slab', serif;
+  padding-top: 2%;
+  background-color: #EDF2F8;
+  height: 30rem;
+}
+
+#bns-allCards{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+#bns-main-card{ 
+  
+  height: 20rem;
+  width: 20%;
+  background: black;
+  overflow: hidden;
+}
+
+#bns-main-image{
+  object-fit: cover;
+   opacity: 0.3;
+  height: 20rem;
+  width: 20rem;
+}
+
+#bns-main-text{
+  justify-content: center;
+  margin-top: 20%;
+  color: #ffffff;
+  margin-left: 10% ;
+}
+
+#bns-card{
+  border-color: #ffffff;
+  width: 20%;
+  height: 20rem;
+}
+
+#bns-image{
+  height: 60%;
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 94%;
+  border-radius: 3%;
+}
+
+#bns-card-text{
+  margin-top: 2%;
+}
+
+#btnbnsCatagory{
+  color: #ffffff; 
+  background:#EE2934;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+#bns-np-btns{
+  margin-top: 3%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+#btnbnsNP{
+  
+  color:#EE2934; 
+  background:#EDF2F8;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+/* ------------------------------ Recent news section -------------------------------------*/
+
+#rns-main{
+  font-family: 'Zilla Slab', serif;
+  padding-top: 2%;
+  height: 120rem;
+}
+#rns-left-main{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#card-pair{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  
+}
+
+#rns-card{
+  width: 30%;
+  height: 30rem;
+}
+
+#rns-image{
+  height: 60%;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 96%;
+  /* border-radius: 3%; */
+}
+
+/* #rns-text{
+
+} */
+
+#btnrnsCatagory{
+  color: #ffffff; 
+  background:#EE2934;
+  width: fit-content;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+#btnrnsRead{
+  color:#EE2934; 
+  background:#ffffff00;
+  border: none;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 83%;
+}
+
+#rns-right-main{
+
+}
+
+#rns-Catagory-main{
+border: 1px solid #000000;
+
+}
+
+#rns-cat-nav{
+  color: #ffffff;
+  background-color: #EE2934;
+}
+
+#rns-nav-logo{
+  
+}
+
+#rns-cat-card{
+  
+}
+
+#rns-cat-image{
+  height: 5rem;
+  width: 35%;
+}
+
+#rns-cat-text{
+  display: flex;
+  flex-direction: row;
+  gap: 26%;
+  color: #ffffff;
+  
+}
+
+#cat-text{
+  margin-top: 0.5%;
+}
+
+#btnrns-cat-more{
+  color: #ffffff;
+  background-color: #00000000;
+  border: none;
+  
+}
