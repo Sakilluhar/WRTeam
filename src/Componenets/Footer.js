@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
-export const Footer = () => {
+
+function Footer() {
+
     const initialValues = { email: "" };
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
@@ -46,20 +48,20 @@ export const Footer = () => {
                     <div className='newsLetter'>
                         <strong><h3> Subcribe our news Letter</h3></strong>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur <br/>adipisicing elit. Quaerat porro incidunt officiis <br/> mollitia fugit suscipit architecto ex quibusdam rerum totam.
+                            Lorem ipsum, dolor sit amet consectetur <br />adipisicing elit. Quaerat porro incidunt officiis <br /> mollitia fugit suscipit architecto ex quibusdam rerum totam.
                         </p>
                     </div>
                     <div className='d-flex flex-column justify-content-center'>
 
-                    <div className='row g-3'>
-                        
+                        <div className='row g-3'>
+
                             <input type="text" className="col-auto form-control" name='email' id="floatingInput" placeholder="Enter Email" aria-describedby="emailHelp" value={formValues.email} onChange={handleChange} />
-                            <button className='col-auto btn ' style={{ color: "#ffffff", background: "#EE2934" }}id='ES' onClick={handleSubcribe}>SUBCRIBE</button>
-                        
-                      
-                        
-                    </div>
-                            <p className='error-msg'> {formErrors.email}</p>
+                            <button className='col-auto btn ' style={{ color: "#ffffff", background: "#EE2934" }} id='ES' onClick={handleSubcribe}>SUBCRIBE</button>
+
+
+
+                        </div>
+                        <p className='error-msg'> {formErrors.email}</p>
                     </div>
                 </div>
             </div>
@@ -104,11 +106,11 @@ export const Footer = () => {
                         <div className="col-xs-3 col-sm-3 col-md-">
                             <h5>useful links</h5>
                             <ul className="useL">
-                                <li><Link to={'/'}><i className="fa fa-angle-double-right"></i>Home</Link></li>
-                                <li><Link to={'/about'}><i className="fa fa-angle-double-right"></i>About</Link></li>
-                                <li><Link to={'/live_news'}><i className="fa fa-angle-double-right"></i>Live News</Link></li>
-                                <li><Link to={'/breaking_news'}><i className="fa fa-angle-double-right"></i>Breaking News</Link></li>
-                                <li><Link to={'/contact_us'}><i className="fa fa-angle-double-right"></i>Contact Us</Link></li>
+                                <li><a href={'/'}>Home</a></li>
+                                <li><a href={'/about'}>About</a></li>
+                                <li><a href={'/live_news'}>Live News</a></li>
+                                <li><a href={'/breaking_news'}>Breaking News</a></li>
+                                <li><a href={'/contact_us'}>Contact Us</a></li>
                             </ul>
                         </div>
 
@@ -141,4 +143,9 @@ export const Footer = () => {
             </section>
         </>
     );
-};
+}
+
+export default Footer
+
+
+
