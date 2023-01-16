@@ -187,7 +187,31 @@ function RecentNewsSection() {
                         <h1><BsSun size={70}/></h1>
                     </div>
                     <div id='wcard-footer' className="card-footer">
-                        <BsSun/>
+                        <div id=''><h5>thursday</h5>
+                        <div>
+                        <h5>27'C <BsSun/></h5>
+                        </div></div>
+                        <div><h5>friday</h5>
+                        <div>
+                        <h5>27'C <BsSun/></h5>
+                        </div></div>
+                        <div><h5>saturday</h5>
+                        <div></div>
+                        <h5>27'C <BsSun/></h5>
+                        </div>
+                        <div><h5>sunday</h5>
+                        <div></div>
+                        <h5>27'C <BsSun/></h5>
+                        </div>
+                        <div><h5>monday</h5>
+                        <div></div>
+                        <h5>27'C <BsSun/></h5>
+                        </div>
+                        <div><h5>tuseday</h5>
+                        <div>
+                        <h5>27'C <BsSun/></h5>
+                        </div></div>
+                        
                     </div>
                     
                 </div>
