@@ -5,12 +5,14 @@ import Navbar from './Componenets/Navbar';
 
 
 
+
 function App() {
   return (
     <>
      <Header/>
      <Navbar/>
      <HomePage/>
+     
     </>
   );
 }
