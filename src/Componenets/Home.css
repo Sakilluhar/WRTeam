@@ -88,7 +88,7 @@
 
 #top-news-section{
   font-family: 'Zilla Slab', serif;
-  height: 50rem;
+  height: 52rem;
 }
 
 #tns-main{
@@ -111,6 +111,7 @@
 }
 
 #tns-news-image1{
+  object-fit: cover;
   height: 46rem;
     width: 46rem;
 }
@@ -145,3 +146,259 @@
 
 /* ------------------------------Breaking News section -------------------------------------*/
 
+#bns-main{
+  font-family: 'Zilla Slab', serif;
+  padding-top: 2%;
+  background-color: #EDF2F8;
+  height: 30rem;
+}
+
+#bns-allCards{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+#bns-main-card{ 
+  
+  height: 20rem;
+  width: 20%;
+  background: black;
+  overflow: hidden;
+}
+
+#bns-main-image{
+  object-fit: cover;
+   opacity: 0.3;
+  height: 20rem;
+  width: 20rem;
+}
+
+#bns-main-text{
+  justify-content: center;
+  margin-top: 20%;
+  color: #ffffff;
+  margin-left: 10% ;
+}
+
+#bns-card{
+  border-color: #ffffff;
+  width: 20%;
+  height: 20rem;
+}
+
+#bns-image{
+  height: 60%;
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 94%;
+  border-radius: 3%;
+}
+
+#bns-card-text{
+  margin-top: 2%;
+}
+
+#btnbnsCatagory{
+  color: #ffffff; 
+  background:#EE2934;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+#bns-np-btns{
+  margin-top: 3%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+#btnbnsNP{
+  
+  color:#EE2934; 
+  background:#EDF2F8;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+/* ------------------------------ Recent news section -------------------------------------*/
+
+#rns-main{
+  display: grid;
+  grid-template-columns: 6% 5fr 2% 3fr 6%;
+  font-family: 'Zilla Slab', serif;
+  padding-top: 2%;
+  height: 120rem;
+}
+#rns-left-main{
+  display: grid;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#card-pair{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  
+}
+
+#rns-card{
+  width: 49%;
+  height: 30rem;
+}
+
+#rns-image{
+  height: 60%;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 96%;
+  /* border-radius: 3%; */
+}
+
+/* #rns-text{
+
+} */
+
+#btnrnsCatagory{
+  color: #ffffff; 
+  background:#EE2934;
+  width: fit-content;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+#btnrnsRead{
+  color:#EE2934; 
+  background:#ffffff00;
+  border: none;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 83%;
+}
+
+#rns-right-main{
+  display: grid;
+  grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+#rns-Catagory-main{
+border: 1px solid #C0C5D0;
+/* border-right: 1px solid ;
+border-left: 1px solid #C0C5D0;
+border-bottom: 1px solid #C0C5D0; */
+border-radius: 1%;
+height: 42rem;
+}
+
+#rns-cat-nav{
+  border: 2px solid #EE2934;
+  border-radius: 3%;
+  color: #ffffff;
+  background-color: #EE2934;
+  padding-top: 3%;
+  justify-content: center;
+}
+
+#rns-nav-logo{
+  
+  /* margin-top: 1.5%; */
+  /* margin-left: 3%; */
+}
+
+
+  
+
+#rns-nav-logo::after{
+ 
+} 
+
+#rns-cat-card{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 3%;
+  background: black;
+  overflow: hidden;
+  border: none;
+}
+
+#rns-cat-image{
+  object-fit: cover;
+   opacity: 0.5;
+  height: 5rem;
+  width: 100%;
+}
+
+#rns-cat-text{
+  display: grid;
+  grid-template-columns: 2% 7fr 1fr;
+  color: #ffffff;
+}
+
+#cat-text{
+  grid-column: 2/3;
+  margin-top: 2%;
+}
+
+#btnrns-cat-more{
+  grid-column: 3/4;
+  color: #ffffff;
+  background-color: #00000000;
+  border: none;
+  
+}
+
+/* ---------------------------------- rns weather card ------------------------------------ */
+
+#rns-weather-card{
+  height: 25rem;
+  background: black;
+  overflow: hidden;
+  border: none;
+}
+
+#rns-weather-image{
+  object-fit: cover;
+   opacity: 0.4;
+  height: 25rem;
+  
+}
+
+#weather-main-text{
+  color: #ffffff;
+}
+
+#weather-logo{
+  position: relative;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+#wcard-body{
+display: grid;
+grid-template-columns: 1% 6fr 1fr;
+margin-top: 8%;
+}
+
+#wcard-left-body{
+  display: grid;
+  grid-column: 2/3;
+}
+
+#wcard-footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  background-color: #ffffff49;
+}
